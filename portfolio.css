@@ -15,7 +15,21 @@ body {
     border: 0px;
     
 }
-
+/*works*/
+.works1 {
+    position: absolute;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+  }
+  .grid-item {
+    text-align: center;
+  }
+ 
+  
 /* contact */
 #contact {
     position: relative;
