@@ -1,7 +1,3 @@
-@viewport {
-    width: device-width ;
-    zoom: .5 ;
-  }
 
 /* carousel */
 
@@ -26,11 +22,15 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end];
+    grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end];
+    grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 1fr [row3-end];
     padding: 10px;
   }
   .grid-item {
     text-align: center;
+  }
+  #Des {
+      text-align: left;
   }
  
   
