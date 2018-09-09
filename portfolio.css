@@ -1,0 +1,25 @@
+/* carousel */
+
+body {
+    position: relative;
+}
+
+.slides {
+    position: relative;
+    height: 50%;
+}
+/*buttons for carousel*/
+
+.slide1button {
+    padding: 0px;
+    border: 0px;
+    
+}
+
+/* contact */
+#contact {
+    position: relative;
+}
+.name {
+   padding: 0 0 0 43%;
+}
