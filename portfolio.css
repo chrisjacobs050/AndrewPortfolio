@@ -21,8 +21,7 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end];
     padding: 10px;
   }
   .grid-item {
@@ -34,6 +33,4 @@ body {
 #contact {
     position: relative;
 }
-.name {
-   padding: 0 0 0 43%;
-}
+
